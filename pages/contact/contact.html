@@ -26,31 +26,37 @@
             
             
                 <div class="mb-3">
-                    <input type="text" placeholder="Your Name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                    <input type="text" placeholder="Your Name" required class="form-control" id="exampleInputName" aria-describedby="emailHelp">
                 </div>
             
             
             <div class="mb-3">
-                     <input type="email" placeholder="Your Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     <input type="email" placeholder="Your Email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
 
 
             <div class="mb-3">
-              <input type="text" placeholder="Your Phone Number" class="form-control" id="exampleInputPhone">
+              <input type="tel" pattern="[0-9]{10}}"" placeholder="Your Phone Number" required class="form-control" id="exampleInputPhone">
             </div>
 
-     <button type="submit" id="btn" class="btn btn-primary btn-lg" >Send Message</button>
+       
 
         </div>
         <div class="col-md-6">
         <div class="mb-3">
               
-            <input id="message" type="text" placeholder="Your Message" class="form-control" id="exampleInputPhone">
+            <input id="message" type="text" placeholder="Your Message" required class="form-control" id="exampleInputPhone">
           </div>
         </div>
 
+
+        <div class="col-md-6">
+            <div class="mb-3">
+        <button type="submit" id="btn" class="btn btn-primary btn-lg " >Send</button>
+          
     </div>
-          </form>
+</div>
+    </form>
         </div>
       </div>
     </div>
