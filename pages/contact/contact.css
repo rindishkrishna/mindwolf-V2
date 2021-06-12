@@ -37,6 +37,7 @@
   text-align: center;
   color: #4f5bd3;
 }
+
 @media (max-width: 550px) {
   .form-box h3 {
     font-size: large;
