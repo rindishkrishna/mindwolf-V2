@@ -1,85 +1,100 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.Heading{
+.Heading {
   margin-top: 40px;
   margin-bottom: 20px;
   color: #292929;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: bolder;
 }
 
-.Subheading{
+.Subheading {
   text-align: center;
   margin-top: 45px;
 }
-.color{
-  color: #4f5bd3
+.color {
+  color: #4f5bd3;
 }
-#card{
-  margin-left: 40px;
-  margin-right: 40px;
-  border:1px solid rgba(0, 0,0, 0.125);
-  box-shadow: -14px 14px 3px -5px rgba(239,239,239,0.98);
--webkit-box-shadow: -14px 14px 3px -5px rgba(239,239,239,0.98);
--moz-box-shadow: -14px 14px 3px -5px rgba(239,239,239,0.98);
-
-border-radius: 13px;
-margin-top: 56px;
-margin-bottom: 105px;
+.price {
+  margin-left: 20%;
 }
-#pricecard{
-  margin-left: 40px;
-  margin-right: 40px;
-  border:1px solid rgba(0, 0,0, 0.125);
-  box-shadow: -14px 14px 3px -5px rgba(239,239,239,0.98);
--webkit-box-shadow: -14px 14px 3px -5px rgba(239,239,239,0.98);
--moz-box-shadow: -14px 14px 3px -5px rgba(239,239,239,0.98);
+#card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: -14px 14px 3px -5px rgba(239, 239, 239, 0.98);
+  -webkit-box-shadow: -14px 14px 3px -5px rgba(239, 239, 239, 0.98);
+  -moz-box-shadow: -14px 14px 3px -5px rgba(239, 239, 239, 0.98);
 
-border-radius: 13px;
-margin-top: 56px;
-margin-bottom: 105px;
+  border-radius: 13px;
+  margin-top: 56px;
+  margin-bottom: 105px;
 }
 
-.card-img-top{
+#pricecard {
+  margin-right: 10%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: -14px 14px 3px -5px rgba(239, 239, 239, 0.98);
+  -webkit-box-shadow: -14px 14px 3px -5px rgba(239, 239, 239, 0.98);
+  -moz-box-shadow: -14px 14px 3px -5px rgba(239, 239, 239, 0.98);
+
+  border-radius: 13px;
+  margin-top: 56px;
+  margin-bottom: 105px;
+}
+
+.card-img-top {
   height: 55px;
   width: 55px;
   margin-top: 25px;
-  
 }
-.card-title{
-  font-family: 'Poppins', sans-serif;
+.card-title {
+  font-family: "Poppins", sans-serif;
 }
-.text{
+.text {
   text-align: center;
   font-size: 14px;
   font-family: Roboto;
 }
-.price{
+.price {
   position: relative;
-  left: 84px;
-
-}
-.bg{
-  background-image: linear-gradient(to bottom, #8693f3, #4f5bd3);
-
 }
 
-#noborder{
+#noborder {
   border: 0px white;
 }
-@media (min-width: 576px) { 
-    #card{
-      margin-top: 30px;
-      margin-bottom:30px ;
-    }
- }
-@media (max-width: 576px){
-  #card{
+@media (min-width: 1000px) {
+  #card {
+    margin-left: 30%;
+  }
+}
+@media (min-width: 760px) {
+  #card {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 576px) {
+  #card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 576px) {
+  #card {
     margin-top: 20px;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 446px) {
+  #card {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 330px) {
+  #card {
+    margin-left: 5%;
   }
 }
