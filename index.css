@@ -1,7 +1,7 @@
 .ibutton {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: 2.08;
@@ -9,7 +9,8 @@
     text-align: center;
     color: #ffffff;
     border-radius: 50px;
-    width: 255px;
+    border-color: #4f5bd3;
+    width: 225px;
     height: 70px;
     background-image: linear-gradient(to bottom, #8693f3, #4f5bd3);
   }
@@ -111,4 +112,45 @@
  padding-top: 200px;
 }
 
+.aboutpara {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #3e3e3e;
+}
 
+.imglogo {
+  max-height: 30px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .ibutton {
+    /* font-family: 'Poppins'; */
+    font-size: 18px;
+    width: 170px;
+    height: 70px;
+   
+  }
+  .header-style{
+    font-size: 20px;
+  }
+  .lead{
+    font-size:16px;
+  }
+  .ihead{
+    font-size: 26px;
+  }
+  .ihead2{
+    font-size: 26px;
+  }
+  .ipara{
+    font-size:16px;
+  }
+}
