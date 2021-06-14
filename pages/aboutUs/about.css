@@ -1,0 +1,77 @@
+.abouthd {
+    padding-bottom: 20px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #3e3e3e;
+  }
+  
+  .aboutpara {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.82;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #3e3e3e;
+  }
+  .aboutpara {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.82;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #3e3e3e;
+  }
+  
+  .abpara {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #292929;
+  }
+  
+  .abimage {
+    width: inherit;
+    height: 343.5px;
+  }
+  
+  .abpara2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4f5bd3;
+  }
+
+  .spand {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #4f5bd3;
+  }
+  .spand2 {
+   
+   color: #4f5bd3;
+  }
+  

@@ -19,14 +19,14 @@
       <div class="container box">
 
           <div class="form-box">
-              <h3>We'd love to hear from you</h3>
-        <form >
+              <h3>Send your query</h3>
+        <form action="mailto:info@mindwolf.net" method="post" enctype="text/plain">
 <div class="row">
             <div class="col-md-6">
             
             
                 <div class="mb-3">
-                    <input type="text" placeholder="Your Name" required class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                    <input type="text" placeholder="Your Name" required class="form-control" name="name" id="exampleInputName" aria-describedby="emailHelp">
                 </div>
             
             
@@ -36,7 +36,7 @@
 
 
             <div class="mb-3">
-              <input type="tel" pattern="[0-9]{10}}"" placeholder="Your Phone Number" required class="form-control" id="exampleInputPhone">
+              <input type="tel" pattern="[0-9]{10}}"" placeholder="Your Phone Number" name="phoneNumber" required class="form-control" id="exampleInputPhone">
             </div>
 
        
@@ -45,7 +45,7 @@
         <div class="col-md-6">
         <div class="mb-3" >
               
-            <input id="message" type="text" placeholder="Your Message" required class="form-control" id="exampleInputPhone">
+            <input id="message" type="text" placeholder="Your Message" name="message" required class="form-control" id="exampleInputPhone">
           </div>
         </div>
 

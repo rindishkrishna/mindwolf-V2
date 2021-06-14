@@ -1,0 +1,114 @@
+.ibutton {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.08;
+    letter-spacing: 0.96px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 50px;
+    width: 255px;
+    height: 70px;
+    background-image: linear-gradient(to bottom, #8693f3, #4f5bd3);
+  }
+  .spand {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #4f5bd3;
+  }
+  .spand2 {
+   
+   color: #4f5bd3;
+  }
+  .imgnew {
+    width: 50px;
+    height: inherit;
+}
+.ipara {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3e3e3e;
+}
+.ft2 {
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: 0.96px;
+  text-align: center;
+  color: #ffffff;
+}
+.fico {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  padding-top: 10px;
+  letter-spacing: 0.72px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.ficon {
+  font-size: 30px;
+  color: #fff;
+}
+.flogo {
+  width: 33px;
+  height: 30px;
+}
+
+.fhead {
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.finfo {
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+  margin-top:-100px;
+}
+.wrappring{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 200px;
+}
+
+
