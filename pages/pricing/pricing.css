@@ -119,6 +119,10 @@ iframe{
   text-align: center;
   color: #ffffff;
 }
+.new-title{
+  font-family: 'Poppins';
+  font-weight: 600;
+}
 @media (max-width: 993px) {
   .box-top3 {
     max-height: 35px;
