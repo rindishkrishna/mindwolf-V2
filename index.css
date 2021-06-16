@@ -1,33 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .ibutton {
-    /* font-family: 'Poppins'; */
-    font-size: 24px;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.08;
-    letter-spacing: 0.96px;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 50px;
-    border-color: #4f5bd3;
-    width: 225px;
-    height: 70px;
-    background-image: linear-gradient(to bottom, #8693f3, #4f5bd3);
-  }
-  .spand {
-    font-family: Poppins;
-    font-weight: 600;
-    font-style: normal;
-    letter-spacing: normal;
-    color: #4f5bd3;
-  }
-  .spand2 {
-   
-   color: #4f5bd3;
-  }
-  .imgnew {
-    width: 50px;
-    height: inherit;
+  /* font-family: 'Poppins'; */
+  font-size: 24px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.08;
+  letter-spacing: 0.96px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50px;
+  border-color: #4f5bd3;
+  width: 225px;
+  height: 70px;
+  background-image: linear-gradient(to bottom, #8693f3, #4f5bd3);
+}
+.spand {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #4f5bd3;
+}
+.spand2 {
+  color: #4f5bd3;
+}
+.imgnew {
+  width: 50px;
+  height: inherit;
 }
 .ipara {
   font-family: Poppins;
@@ -41,7 +45,7 @@
   color: #3e3e3e;
 }
 .ft2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 15px;
   font-weight: 600;
   font-stretch: normal;
@@ -52,7 +56,7 @@
   color: #ffffff;
 }
 .fico {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: 600;
   font-stretch: normal;
@@ -74,7 +78,7 @@
 }
 
 .fhead {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -86,7 +90,7 @@
 }
 
 .finfo {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -103,17 +107,17 @@
 
 .bg-cover {
   background-size: cover !important;
-  margin-top:-100px;
+  margin-top: -100px;
 }
-.wrappring{
- display:flex;
- align-items: center;
- justify-content: center;
- padding-top: 150px;
+.wrappring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
 }
 
 .aboutpara {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: 600;
   font-stretch: normal;
@@ -140,8 +144,8 @@
   width: 100%; /* Full width */
   height: 400px; /* Full height */
   /* overflow: auto; Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 .modal-content {
   background-color: #fefefe;
@@ -157,21 +161,20 @@
     font-size: 18px;
     width: 170px;
     height: 70px;
-   
   }
-  .header-style{
+  .header-style {
     font-size: 20px;
   }
-  .lead{
-    font-size:18px;
+  .lead {
+    font-size: 18px;
   }
-  .ihead{
+  .ihead {
     font-size: 26px;
   }
-  .ihead2{
+  .ihead2 {
     font-size: 26px;
   }
-  .ipara{
-    font-size:16px;
+  .ipara {
+    font-size: 16px;
   }
 }
