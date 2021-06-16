@@ -64,4 +64,41 @@
    
    color: #4f5bd3;
   }
+  .imglogo {
+    max-height: 30px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .fico {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    padding-top: 10px;
+    letter-spacing: 0.72px;
+    text-align: left;
+    color: #ffffff;
+  }
   
+  .ficon {
+    font-size: 30px;
+    color: #fff;
+  }
+  .flogo {
+    width: 33px;
+    height: 30px;
+  }.ft2 {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: 0.96px;
+    text-align: center;
+    color: #ffffff;
+  }

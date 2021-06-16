@@ -8,8 +8,8 @@
   max-height: 700px;
   padding-top: 1%;
   padding-bottom: 8%;
-  margin-left: 10%;
-  margin-right: 10%;
+
+
 }
 
 .form-box {
@@ -37,6 +37,44 @@
   color: #ffffff;
   border-radius: 5px;
   background-image: linear-gradient(to bottom, #8693f3, #4f5bd3);
+}
+.imglogo {
+  max-height: 30px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.fico {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  padding-top: 10px;
+  letter-spacing: 0.72px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.ficon {
+  font-size: 30px;
+  color: #fff;
+}
+.flogo {
+  width: 33px;
+  height: 30px;
+}.ft2 {
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: 0.96px;
+  text-align: center;
+  color: #ffffff;
 }
 @media (max-width: 500px) {
   .form-box {
@@ -68,7 +106,7 @@
 }
 
 #message {
-  margin-top: 10%;
+  padding-top: 10%;
   padding-bottom: 20%;
 }
 
