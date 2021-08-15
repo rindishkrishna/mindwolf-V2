@@ -301,6 +301,11 @@ iframe{
 .price {
   position: relative;
 }
+.card-body .btn{
+  background: rgb(89, 15, 209);
+  border: none;
+
+}
 
 #noborder {
   border: 0px white;
