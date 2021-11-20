@@ -117,4 +117,8 @@
 
   background: linear-gradient(left, #4f5bd3, #00c6ff);
   border-radius: 10px;
+  border: none;
+}
+.footer{
+  padding: 0;
 }
